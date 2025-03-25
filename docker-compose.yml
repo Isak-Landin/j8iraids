@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  flask-app:
+    container_name: flask-app
+    restart: always
+    env_file: .env
+    build: .
+    ports:
+      - "5005:5005"  # Map host port to container port
+    networks:
+      - web_network
+
+  nginx:
+    container_name: nginx
+    restart: always
+    image: "nginx:latest"
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    networks:
+      - web_network
+    depends_on:
+      - flask-app
+
+networks:
+  web_network:
+    driver: bridge
