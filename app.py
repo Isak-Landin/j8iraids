@@ -8,7 +8,7 @@ load_dotenv()
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/home')
 def home():
     debug_mode = os.getenv('FLASK_DEBUG', 'False')
     return f"Hello from Flask behind Nginx! Debug Mode: {debug_mode}"
