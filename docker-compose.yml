@@ -15,11 +15,11 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
-     # - "443:443"
+      - "443:443"
     volumes:
-      - ./nginx:/etc/nginx/conf.d:rw
-      - certbot-www:/var/www/certbot:rw
-      - certbot-etc:/etc/letsencrypt:rw  # ✅ Use Docker volume instead of a host path
+      - ./nginx:/etc/nginx/conf.d
+      - /var/www/certbot:/var/www/certbot  # ✅ Host-based Certbot challenge folder
+      - ~/j8iraids/certbot/etc:/etc/letsencrypt  # ✅ Host-based SSL certificates
     networks:
       - web_network
     depends_on:
@@ -29,17 +29,13 @@ services:
     image: certbot/certbot:latest
     container_name: certbot
     volumes:
-      - certbot-www:/var/www/certbot
-      - certbot-etc:/etc/letsencrypt
+      - /var/www/certbot:/var/www/certbot  # ✅ Certbot saves challenge files on the host
+      - ~/j8iraids/certbot/etc:/etc/letsencrypt  # ✅ Certbot saves SSL certs on the host
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet --agree-tos --email utbisalan@gmail.com; sleep 12h & wait $${!}; done'"
     depends_on:
       - nginx
     networks:
       - web_network
-
-volumes:
-  certbot-etc:
-  certbot-www:
 
 networks:
   web_network:
