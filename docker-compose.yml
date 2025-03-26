@@ -31,6 +31,7 @@ services:
     volumes:
       - /var/www/certbot:/var/www/certbot  # ✅ Certbot challenge files are stored here
       - ~/j8iraids/certbot/etc:/etc/letsencrypt  # ✅ Certbot saves SSL certs on host
+
     depends_on:
       - nginx
     networks:
