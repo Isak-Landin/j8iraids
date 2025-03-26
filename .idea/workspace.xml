@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf21d1f-79ec-43e0-97a2-d870ec70c5bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +42,14 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/j8iraids/static/templates"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\j8iraids\static\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\j8iraids" />
     </key>
