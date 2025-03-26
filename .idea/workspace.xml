@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf21d1f-79ec-43e0-97a2-d870ec70c5bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
