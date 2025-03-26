@@ -221,6 +221,17 @@ strong {
   background-color: var(--section-bg-color);
 }
 
+.section-overlay-special {
+  background-color: var(--dark-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
 .section-overlay {
   background-color: var(--dark-color);
   position: absolute;
