@@ -1,14 +1,10 @@
 import os
 from flask import Flask
 from dotenv import load_dotenv
+from home.home import home_bp
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
-
-
-@app.route('/home')
-def home():
-    debug_mode = False
-    return f"Hello from Flask behind Nginx! Debug Mode: {debug_mode}"
+app.register_blueprint(home_bp)
