@@ -59,6 +59,12 @@ body {
     margin: auto;
 }
 
+#small-cox-text-img {
+    width: auto;
+    max-height: 1rem;
+    margin: auto;
+}
+
 .special-icon {
     display: inline-block !important;
     margin: auto;
