@@ -59,6 +59,11 @@ body {
     margin: auto;
 }
 
+.special-icon {
+    display: inline-block !important;
+    margin: auto;
+}
+
 h2,
 h3,
 h4,
