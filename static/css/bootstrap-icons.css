@@ -843,6 +843,7 @@ url("../fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wo
 .bi-info::before { content: "\f434"; }
 .bi-input-cursor-text::before { content: "\f435"; }
 .bi-input-cursor::before { content: "\f436"; }
+.bi-crosshair::before { content: "\F769" }
 .bi-instagram::before { content: "\f437"; }
 .bi-intersect::before { content: "\f438"; }
 .bi-journal-album::before { content: "\f439"; }
