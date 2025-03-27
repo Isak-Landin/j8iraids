@@ -55,6 +55,7 @@ body {
 
 .row-centered {
     justify-content: center;
+    vertical-align: middle; !important
     margin: auto;
 }
 
