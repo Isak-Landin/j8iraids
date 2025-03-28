@@ -70,6 +70,12 @@ body {
     margin: auto;
 }
 
+.img-h1 {
+    max-height:100px !important;
+    margin: auto;
+    width: auto;
+}
+
 h2,
 h3,
 h4,
