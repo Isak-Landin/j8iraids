@@ -632,7 +632,7 @@ strong {
 .artists-thumb:hover .artists-hover {
     transform: translateY(0);
     opacity: 1;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35); /* Darker on hover */
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6); /* Darker on hover */
     transform: translateY(-5px);
 }
 
