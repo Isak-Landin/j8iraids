@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf21d1f-79ec-43e0-97a2-d870ec70c5bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/boosts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boosts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boosts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boosts.py" beforeDir="false" afterPath="$PROJECT_DIR$/boosts/boosts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
       <recent name="D:\j8iraids\static\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\j8iraids\boosts" />
       <recent name="D:\j8iraids" />
     </key>
   </component>
