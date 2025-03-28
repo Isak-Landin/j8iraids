@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from dotenv import load_dotenv
-from home import blueprint as home_bp
+from home.home import blueprint as home_bp
 
 # Load environment variables
 load_dotenv()
