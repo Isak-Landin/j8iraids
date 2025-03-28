@@ -1,3 +1,5 @@
 from flask_login import UserMixin
 
-class Order():
+
+class Order(UserMixin):
+    pass

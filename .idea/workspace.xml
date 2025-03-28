@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf21d1f-79ec-43e0-97a2-d870ec70c5bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/boosts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boosts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boosts.py" beforeDir="false" afterPath="$PROJECT_DIR$/boosts/boosts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/raiders/bomba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/raiders/bomba.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boosts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/boosts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/j8iraids/static/templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/j8iraids/static/templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\j8iraids\static\templates" />
